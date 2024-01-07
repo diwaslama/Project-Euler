@@ -10,5 +10,6 @@ import math
 power_2 = math.floor(math.log(20, 2))
 power_3 = math.floor(math.log(20, 3))
 
-lcm = (2 ** power_2) * (3 ** power_3) * 5 * 7 * 11 * 13 * 17 * 19
-print(lcm)
+answer = (2 ** power_2) * (3 ** power_3) * 5 * 7 * 11 * 13 * 17 * 19
+
+print(answer)
